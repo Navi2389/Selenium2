@@ -4,6 +4,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.Cookie;
 
 import java.util.concurrent.TimeUnit;
 
@@ -40,14 +41,23 @@ public class CrmCreateAutoProjectDiaryListDZ3 {
     }
     private static void login() throws InterruptedException {
         driver.get(LOGIN_PAGE_URL);
-        driver.findElement(By.id("loginform-username")).sendKeys("TestIvan1");
-        driver.findElement(By.id("loginform-password")).sendKeys("TestIvan1");
-        //работа с айфреймом
-        driver.switchTo().frame(driver.findElement(By.xpath("//iframe[contains(@title,'reCAPTCHA')]")));
-        driver.findElement(By.xpath("//body")).click();
-        //возврат в стратегию поиска из фрейма в обычный - нужно делать обязательно данное переключение
-        driver.switchTo().defaultContent();//дефолтная наша html
-        Thread.sleep(70000);
-        driver.findElement(By.id("login_btn")).click();
+        //добавили авторизацию на сайте с помощью Cookies
+        Cookie sessionCookie = driver.manage().getCookieNamed("PHPSESSID");
+        driver.manage().deleteCookie(sessionCookie);
+        Cookie cookie = new Cookie("PHPSESSID", "b1bhr7ntffq9fleqsdf0h2bm1k");
+        driver.manage().addCookie(cookie);
+        driver.navigate().refresh();
+        Thread.sleep(50000);
+//       driver.close();
+       //обычная авторизация с помощью кнопок на сайте
+//        driver.findElement(By.id("loginform-username")).sendKeys("TestIvan1");
+//        driver.findElement(By.id("loginform-password")).sendKeys("TestIvan1");
+//        //работа с айфреймом
+//        driver.switchTo().frame(driver.findElement(By.xpath("//iframe[contains(@title,'reCAPTCHA')]")));
+//        driver.findElement(By.xpath("//body")).click();
+//        //возврат в стратегию поиска из фрейма в обычный - нужно делать обязательно данное переключение
+//        driver.switchTo().defaultContent();//дефолтная наша html
+//        Thread.sleep(70000);
+//        driver.findElement(By.id("login_btn")).click();
     }
 }
