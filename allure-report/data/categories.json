@@ -1,0 +1,60 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "element click intercepted: Element <a href=\"/contact/create\" class=\"btn back icons-holder-text \" title=\"...\">Создать контактное лицо</a> is not clickable at point (678, 113). Other element would receive the click: <div class=\"loader-overlay\"></div>\n  (Session info: chrome=90.0.4430.212)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-U5MCEQH', ip: '192.168.0.48', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_291'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.212, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\\Users\\dom\\AppData\\Local\\...}, goog:chromeOptions: {debuggerAddress: localhost:64431}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: c0dd888fee6806f06237a800ad46d498",
+      "children" : [ {
+        "name" : "createNewContact()",
+        "uid" : "398304609801618",
+        "parentUid" : "33f266e3280d3e67b2efa854435ef2f8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1621257545623,
+          "stop" : 1621257588601,
+          "duration" : 42978
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "33f266e3280d3e67b2efa854435ef2f8"
+    }, {
+      "name" : "element click intercepted: Element <a href=\"/project/create/\" class=\"btn back icons-holder-text \" title=\"...\">Создать проект</a> is not clickable at point (710, 113). Other element would receive the click: <div class=\"loader-overlay\"></div>\n  (Session info: chrome=90.0.4430.212)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-U5MCEQH', ip: '192.168.0.48', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_291'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.212, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\\Users\\dom\\AppData\\Local\\...}, goog:chromeOptions: {debuggerAddress: localhost:64477}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 0625e43b16412d9a89e035ed2911b4bc",
+      "children" : [ {
+        "name" : "createNewProject()",
+        "uid" : "537b6ff07099c84c",
+        "parentUid" : "639a42969ad6c218f7617c5722ee5d8c",
+        "status" : "broken",
+        "time" : {
+          "start" : 1621257611480,
+          "stop" : 1621257643243,
+          "duration" : 31763
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "639a42969ad6c218f7617c5722ee5d8c"
+    }, {
+      "name" : "Expected condition failed: waiting for presence of element located by: By.xpath: //h1[text()='Популярное'] (tried for 5 second(s) with 500 milliseconds interval)",
+      "children" : [ {
+        "name" : "createNewList()",
+        "uid" : "2756b85b9450d11b",
+        "parentUid" : "737c25fe8b78a3c8096926b517e88df2",
+        "status" : "broken",
+        "time" : {
+          "start" : 1621257643495,
+          "stop" : 1621257683412,
+          "duration" : 39917
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "737c25fe8b78a3c8096926b517e88df2"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}

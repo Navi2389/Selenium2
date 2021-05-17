@@ -1,0 +1,37 @@
+{
+  "total" : 4,
+  "items" : [ {
+    "uid" : "6dcd2d956c25e13cf0e3328875b0e3b3",
+    "name" : "Тестирование: два тест кейса - первый на создание проекта в crm; второй - на создание контакта в crm. ",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 2,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 3
+    }
+  }, {
+    "uid" : "d2efe6b5f8cad8c553c104e2c54845ce",
+    "name" : "Тестирование: два тест кейса - на авторизацию в Diary и на создание записи ",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 2
+    }
+  }, {
+    "uid" : "4ae3422ec02cc274a73e27f8f7fdf5b5",
+    "name" : "Тестирование: два тест кейса - на авторизацию в TimeMaster и на создание записи ",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    }
+  } ]
+}

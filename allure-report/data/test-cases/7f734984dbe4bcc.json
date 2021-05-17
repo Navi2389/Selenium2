@@ -1,0 +1,138 @@
+{
+  "uid" : "7f734984dbe4bcc",
+  "name" : "loginTestWithFluentPage()",
+  "fullName" : "project7TestsAllure.TestCase1_2Diary.loginTestWithFluentPage",
+  "historyId" : "6345bea4f9a669988db67d5bd22542e0",
+  "time" : {
+    "start" : 1621257683465,
+    "stop" : 1621257704419,
+    "duration" : 20954
+  },
+  "description" : "тест 1 авторизация на сайте https://diary.ru/",
+  "descriptionHtml" : "<p>тест 1 авторизация на сайте https://diary.ru/</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "тест 1 авторизация на сайте https://diary.ru/",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Заполняем поле логин при авторизации",
+      "time" : {
+        "start" : 1621257697191,
+        "stop" : 1621257700611,
+        "duration" : 3420
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "login",
+        "value" : "TestIvan1"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Заполняем поле пароль при авторизации",
+      "time" : {
+        "start" : 1621257700611,
+        "stop" : 1621257701643,
+        "duration" : 1032
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "password",
+        "value" : "TestIvan1"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Нажимаем кнопку войти на странице авторизации",
+      "time" : {
+        "start" : 1621257701643,
+        "stop" : 1621257702152,
+        "duration" : 509
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Сбор информаци по логам в браузер и закрытие браузера",
+      "time" : {
+        "start" : 1621257702152,
+        "stop" : 1621257704419,
+        "duration" : 2267
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Тестирование: два тест кейса - на авторизацию в Diary и на создание записи "
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-U5MCEQH"
+  }, {
+    "name" : "thread",
+    "value" : "9616@DESKTOP-U5MCEQH.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "project7TestsAllure.TestCase1_2Diary"
+  }, {
+    "name" : "testClass",
+    "value" : "project7TestsAllure.TestCase1_2Diary"
+  }, {
+    "name" : "testMethod",
+    "value" : "loginTestWithFluentPage"
+  }, {
+    "name" : "suite",
+    "value" : "project7TestsAllure.TestCase1_2Diary"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7f734984dbe4bcc.json",
+  "parameterValues" : [ ]
+}

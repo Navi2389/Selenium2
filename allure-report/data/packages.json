@@ -1,0 +1,129 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "org.example.AppTest",
+    "children" : [ {
+      "name" : "shouldAnswerWithTrue",
+      "uid" : "b40a6f97da2d02a0",
+      "parentUid" : "46356c94f853c43cc189eaaf947da54a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621257540376,
+        "stop" : 1621257540447,
+        "duration" : 71
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "org.example.AppTest"
+  }, {
+    "name" : "project7TestsAllure",
+    "children" : [ {
+      "name" : "TestCase1_2CrmProject",
+      "children" : [ {
+        "name" : "createNewContact",
+        "uid" : "398304609801618",
+        "parentUid" : "c544f6e6e278adbdb390252e92ab6629",
+        "status" : "broken",
+        "time" : {
+          "start" : 1621257545623,
+          "stop" : 1621257588601,
+          "duration" : 42978
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "loginTestWithFluentPage",
+        "uid" : "ac4baaa1ae7b93e9",
+        "parentUid" : "c544f6e6e278adbdb390252e92ab6629",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621257588686,
+          "stop" : 1621257611395,
+          "duration" : 22709
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "createNewProject",
+        "uid" : "537b6ff07099c84c",
+        "parentUid" : "c544f6e6e278adbdb390252e92ab6629",
+        "status" : "broken",
+        "time" : {
+          "start" : 1621257611480,
+          "stop" : 1621257643243,
+          "duration" : 31763
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "c544f6e6e278adbdb390252e92ab6629"
+    }, {
+      "name" : "TestCase1_2Diary",
+      "children" : [ {
+        "name" : "createNewList",
+        "uid" : "2756b85b9450d11b",
+        "parentUid" : "d962220a3293dcaac3465997ef1c4ad5",
+        "status" : "broken",
+        "time" : {
+          "start" : 1621257643495,
+          "stop" : 1621257683412,
+          "duration" : 39917
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "loginTestWithFluentPage",
+        "uid" : "7f734984dbe4bcc",
+        "parentUid" : "d962220a3293dcaac3465997ef1c4ad5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621257683465,
+          "stop" : 1621257704419,
+          "duration" : 20954
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "d962220a3293dcaac3465997ef1c4ad5"
+    }, {
+      "name" : "TestCase1_2TimeMaster",
+      "children" : [ {
+        "name" : "createNewTask",
+        "uid" : "ea8ac25258eb0fd7",
+        "parentUid" : "2717358dfdef9e4599bfcde6bbf72ac1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621257704567,
+          "stop" : 1621257722201,
+          "duration" : 17634
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "loginTestWithFluentPage",
+        "uid" : "d9fe19abdc206455",
+        "parentUid" : "2717358dfdef9e4599bfcde6bbf72ac1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621257722232,
+          "stop" : 1621257737196,
+          "duration" : 14964
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "2717358dfdef9e4599bfcde6bbf72ac1"
+    } ],
+    "uid" : "99b28bb2706f59796e354b077d6a83e1"
+  } ]
+}

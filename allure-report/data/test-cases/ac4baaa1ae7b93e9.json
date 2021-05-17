@@ -1,0 +1,167 @@
+{
+  "uid" : "ac4baaa1ae7b93e9",
+  "name" : "loginTestWithFluentPage()",
+  "fullName" : "project7TestsAllure.TestCase1_2CrmProject.loginTestWithFluentPage",
+  "historyId" : "ff0f73197dcf0e5719a3ee8379d1ec30",
+  "time" : {
+    "start" : 1621257588686,
+    "stop" : 1621257611395,
+    "duration" : 22709
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Переход на тестируемую страницу по URL",
+      "time" : {
+        "start" : 1621257592207,
+        "stop" : 1621257598548,
+        "duration" : 6341
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "авторизация на сайте",
+      "time" : {
+        "start" : 1621257598548,
+        "stop" : 1621257609298,
+        "duration" : 10750
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Заполняем поле логин при авторизации",
+        "time" : {
+          "start" : 1621257598568,
+          "stop" : 1621257600004,
+          "duration" : 1436
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "login",
+          "value" : "Applanatest1"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Заполняем поле пароль при авторизации",
+        "time" : {
+          "start" : 1621257600006,
+          "stop" : 1621257601339,
+          "duration" : 1333
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "password",
+          "value" : "Student2020!"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Нажимаем кнопку войти на странице авторизации",
+        "time" : {
+          "start" : 1621257601340,
+          "stop" : 1621257609298,
+          "duration" : 7958
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 3,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Сбор информаци по логам в браузер и закрытие браузера",
+      "time" : {
+        "start" : 1621257609299,
+        "stop" : 1621257611395,
+        "duration" : 2096
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 6,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Тестирование: два тест кейса - первый на создание проекта в crm; второй - на создание контакта в crm. "
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-U5MCEQH"
+  }, {
+    "name" : "thread",
+    "value" : "9616@DESKTOP-U5MCEQH.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "project7TestsAllure.TestCase1_2CrmProject"
+  }, {
+    "name" : "testClass",
+    "value" : "project7TestsAllure.TestCase1_2CrmProject"
+  }, {
+    "name" : "testMethod",
+    "value" : "loginTestWithFluentPage"
+  }, {
+    "name" : "suite",
+    "value" : "project7TestsAllure.TestCase1_2CrmProject"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ac4baaa1ae7b93e9.json",
+  "parameterValues" : [ ]
+}
