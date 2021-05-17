@@ -1,0 +1,157 @@
+{
+  "c990f6e8236a571fa29d8329b8b425a1" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "398304609801618",
+      "status" : "broken",
+      "statusDetails" : "element click intercepted: Element <a href=\"/contact/create\" class=\"btn back icons-holder-text \" title=\"...\">Создать контактное лицо</a> is not clickable at point (678, 113). Other element would receive the click: <div class=\"loader-overlay\"></div>\n  (Session info: chrome=90.0.4430.212)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-U5MCEQH', ip: '192.168.0.48', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_291'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.212, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\\Users\\dom\\AppData\\Local\\...}, goog:chromeOptions: {debuggerAddress: localhost:64431}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: c0dd888fee6806f06237a800ad46d498",
+      "time" : {
+        "start" : 1621257545623,
+        "stop" : 1621257588601,
+        "duration" : 42978
+      }
+    } ]
+  },
+  "e9d2151b1c2aaaa7ff0b645f27d9c57b" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b40a6f97da2d02a0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621257540376,
+        "stop" : 1621257540447,
+        "duration" : 71
+      }
+    } ]
+  },
+  "ff0f73197dcf0e5719a3ee8379d1ec30" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ac4baaa1ae7b93e9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621257588686,
+        "stop" : 1621257611395,
+        "duration" : 22709
+      }
+    } ]
+  },
+  "a9d067ab9f7a49dc57674c0de1c3ca6d" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "2756b85b9450d11b",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for presence of element located by: By.xpath: //h1[text()='Популярное'] (tried for 5 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1621257643495,
+        "stop" : 1621257683412,
+        "duration" : 39917
+      }
+    } ]
+  },
+  "6345bea4f9a669988db67d5bd22542e0" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "7f734984dbe4bcc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621257683465,
+        "stop" : 1621257704419,
+        "duration" : 20954
+      }
+    } ]
+  },
+  "f8383e931f4a65ae3fae73b88aeb6110" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "537b6ff07099c84c",
+      "status" : "broken",
+      "statusDetails" : "element click intercepted: Element <a href=\"/project/create/\" class=\"btn back icons-holder-text \" title=\"...\">Создать проект</a> is not clickable at point (710, 113). Other element would receive the click: <div class=\"loader-overlay\"></div>\n  (Session info: chrome=90.0.4430.212)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-U5MCEQH', ip: '192.168.0.48', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_291'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.212, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\\Users\\dom\\AppData\\Local\\...}, goog:chromeOptions: {debuggerAddress: localhost:64477}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 0625e43b16412d9a89e035ed2911b4bc",
+      "time" : {
+        "start" : 1621257611480,
+        "stop" : 1621257643243,
+        "duration" : 31763
+      }
+    } ]
+  },
+  "2fe5f6046de216064018c9f4230d7fec" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d9fe19abdc206455",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621257722232,
+        "stop" : 1621257737196,
+        "duration" : 14964
+      }
+    } ]
+  },
+  "29c04a05d0392a303116dc4786a6d81e" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ea8ac25258eb0fd7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621257704567,
+        "stop" : 1621257722201,
+        "duration" : 17634
+      }
+    } ]
+  }
+}

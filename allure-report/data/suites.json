@@ -1,0 +1,125 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "org.example.AppTest",
+    "children" : [ {
+      "name" : "shouldAnswerWithTrue",
+      "uid" : "b40a6f97da2d02a0",
+      "parentUid" : "e6c9f2e1afc2c8bc1f989dd6ca005204",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621257540376,
+        "stop" : 1621257540447,
+        "duration" : 71
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "e6c9f2e1afc2c8bc1f989dd6ca005204"
+  }, {
+    "name" : "project7TestsAllure.TestCase1_2CrmProject",
+    "children" : [ {
+      "name" : "createNewContact()",
+      "uid" : "398304609801618",
+      "parentUid" : "5bd21815c364b7199788f5b6f2b9bb9d",
+      "status" : "broken",
+      "time" : {
+        "start" : 1621257545623,
+        "stop" : 1621257588601,
+        "duration" : 42978
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "loginTestWithFluentPage()",
+      "uid" : "ac4baaa1ae7b93e9",
+      "parentUid" : "5bd21815c364b7199788f5b6f2b9bb9d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621257588686,
+        "stop" : 1621257611395,
+        "duration" : 22709
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "createNewProject()",
+      "uid" : "537b6ff07099c84c",
+      "parentUid" : "5bd21815c364b7199788f5b6f2b9bb9d",
+      "status" : "broken",
+      "time" : {
+        "start" : 1621257611480,
+        "stop" : 1621257643243,
+        "duration" : 31763
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "5bd21815c364b7199788f5b6f2b9bb9d"
+  }, {
+    "name" : "project7TestsAllure.TestCase1_2Diary",
+    "children" : [ {
+      "name" : "createNewList()",
+      "uid" : "2756b85b9450d11b",
+      "parentUid" : "b4d3260d1e62178dda81b4aa6489c6d7",
+      "status" : "broken",
+      "time" : {
+        "start" : 1621257643495,
+        "stop" : 1621257683412,
+        "duration" : 39917
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "loginTestWithFluentPage()",
+      "uid" : "7f734984dbe4bcc",
+      "parentUid" : "b4d3260d1e62178dda81b4aa6489c6d7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621257683465,
+        "stop" : 1621257704419,
+        "duration" : 20954
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "b4d3260d1e62178dda81b4aa6489c6d7"
+  }, {
+    "name" : "project7TestsAllure.TestCase1_2TimeMaster",
+    "children" : [ {
+      "name" : "createNewTask()",
+      "uid" : "ea8ac25258eb0fd7",
+      "parentUid" : "876add4b0b47795a809495bf49f904fb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621257704567,
+        "stop" : 1621257722201,
+        "duration" : 17634
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "loginTestWithFluentPage()",
+      "uid" : "d9fe19abdc206455",
+      "parentUid" : "876add4b0b47795a809495bf49f904fb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621257722232,
+        "stop" : 1621257737196,
+        "duration" : 14964
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "876add4b0b47795a809495bf49f904fb"
+  } ]
+}
